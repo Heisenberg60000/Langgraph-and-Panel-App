@@ -1,6 +1,8 @@
 # Langgraph-and-Panel-App
-Panel App with Agents. Create Science Problem, Translate and generate Latex File
-The notebook has three parts which are documented below.
+### Panel App with Agents: Science Problem Creation, Translation, and LaTeX Generation
+This notebook is organized into three key sections, detailed below, to guide you through creating science problems, translating them, and generating LaTeX files.
+
+
 ### Part 1: Workflow Creation with Math Agent
 The Math Agent leverages LangGraph to generate a comprehensive workflow. In this process, a math problem is first created and then solved using the Wolfram tool, ensuring accurate and efficient problem-solving.
 
@@ -9,6 +11,15 @@ The Math Creator initializes and runs the Math Agent, providing a streamlined wa
 
 ### Part 3: Integrated Panel in Math App
 The Math App features an integrated panel that consolidates all essential tools and functions into a single, user-friendly interface, allowing users to seamlessly access and utilize all app features.
+
+### utilities: 
+Imports libraries and reads API keys from chatgpt_credentials.yml.You need to create this file and copy API keys:
+
+openai_api_key: sk-proj ....
+
+deepl_api_key: ...
+
+wolfram_alpha_api_key: ...
 
 # Math Agent: Automated Math Problem Generation and Solution Workflow
 
