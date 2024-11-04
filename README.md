@@ -1,10 +1,14 @@
 # Langgraph-and-Panel-App
 Panel App with Agents. Create Science Problem, Translate and generate Latex File
 The notebook has three parts which are documented below.
-## Part 1: Math Agent uses  Langgraph to generate a workflow where first a Math Problem s generated and then solved with help of Wolfram Tool.
-## Part 2: Math Creator to initialize and Run the agent. Opitional: The generated problem and solution can be translated and output into a Latex file.
-## Part 3: Panel App to incorporate everything into an app. 
+### Part 1: Workflow Creation with Math Agent
+The Math Agent leverages LangGraph to generate a comprehensive workflow. In this process, a math problem is first created and then solved using the Wolfram tool, ensuring accurate and efficient problem-solving.
 
+### Part 2: Math Creator Initialization and Execution
+The Math Creator initializes and runs the Math Agent, providing a streamlined way to generate and solve problems. Optionally, the generated problem and solution can be translated and saved into a LaTeX file for professional formatting and presentation.
+
+### Part 3: Integrated Panel in Math App
+The Math App features an integrated panel that consolidates all essential tools and functions into a single, user-friendly interface, allowing users to seamlessly access and utilize all app features.
 
 # Math Agent: Automated Math Problem Generation and Solution Workflow
 
