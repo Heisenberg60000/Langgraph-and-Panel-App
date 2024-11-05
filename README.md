@@ -13,7 +13,11 @@ The Math Creator initializes and runs the Math Agent, providing a streamlined wa
 The Math App features an integrated panel that consolidates all essential tools and functions into a single, user-friendly interface, allowing users to seamlessly access and utilize all app features.
 
 ### utilities: 
-Imports libraries and reads API keys from chatgpt_credentials.yml.You need to create this file and copy API keys:
+Contains Latex formatting instructions.
+
+Imports libraries and reads API keys from chatgpt_credentials.yml.
+
+chatgpt_credentials.yml requires the following API keys:
 
 openai_api_key: sk-proj ....
 
